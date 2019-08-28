@@ -110,7 +110,7 @@ if ($login == false)
 			
         $OTP = trim(fgets(STDIN));
 	    $vclaim = verifclaim($verif1[3],$verif1[0],$nomor,$OTP,$claim[1]);
-        echo $vclaim;
+        print_r ($vclaim);
 			}
 		}
 	}
