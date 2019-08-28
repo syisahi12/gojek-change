@@ -1,7 +1,6 @@
 <?php
 function patch($token = null,$Pdata = null)
 {
-$header[] = "pin: 095287";
 $header[] = "Host: api.gojekapi.com";
 $header[] = "User-Agent: okhttp/3.10.0";
 $header[] = "Accept: application/json";
