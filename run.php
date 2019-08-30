@@ -106,10 +106,11 @@ if ($login == false)
 		  else
 			{
 			print_r ($claim[0]);
-			echo "Enter OTP: ";
+			echo "\n\nEnter OTP: ";
 			
         $OTP = trim(fgets(STDIN));
 	    $vclaim = verifclaim($verif1[3],$verif1[0],$nomor,$OTP,$claim[1]);
+	echo "\n"
         print_r ($vclaim);
 			}
 		}
